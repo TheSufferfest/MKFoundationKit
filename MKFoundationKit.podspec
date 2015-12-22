@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/michalkonturek/MKFoundationKit"
   s.license      = 'MIT'
 
-  s.author       = { 
-    "Michal Konturek" => "michal.konturek@gmail.com" 
+  s.author       = {
+    "Michal Konturek" => "michal.konturek@gmail.com"
   }
 
   s.ios.deployment_target = '7.0'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.social_media_url = 'https://twitter.com/michalkonturek'
   s.source       = {
-    :git => "https://github.com/michalkonturek/MKFoundationKit.git",
+    :git => "https://github.com/TheSufferfest/MKFoundationKit.git",
     :tag => s.version.to_s
   }
 
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   s.subspec 'Stack' do |ss|
     ss.source_files = 'Source/**/*Stack.{h,m}'
     ss.requires_arc = true
-  end  
+  end
 
   s.subspec 'NSArray' do |ss|
     ss.source_files = 'Source/NSArray/*.{h,m}'
