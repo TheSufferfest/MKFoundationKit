@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   }
 
   s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '10.0'
   s.osx.deployment_target = '10.9'
 
   s.social_media_url = 'https://twitter.com/michalkonturek'
